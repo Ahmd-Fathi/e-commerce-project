@@ -20,7 +20,7 @@ public class RegisterTest extends TestBase {
     String FirstName = "mohamed";
     BakeryPage BakeryObject;
     String lastName = "youssef";
-    String phoneNum = "1000033283";
+    String phoneNum = "1006033689";
     String password = "Tedata12312";
 //    String dayBirth="11";
 //    String monthBirth="05";
