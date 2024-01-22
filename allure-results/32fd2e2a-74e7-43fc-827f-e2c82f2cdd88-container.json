@@ -1,0 +1,1 @@
+{"uuid":"32fd2e2a-74e7-43fc-827f-e2c82f2cdd88","name":"TestBase.quiatedriver","children":["ee7329a7-91a8-45ae-b6b1-173dbfb748d9"],"description":"","befores":[],"afters":[{"name":"quiatedriver","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1705877665392,"stop":1705877665395}],"start":1705877665383,"stop":1705877665395}

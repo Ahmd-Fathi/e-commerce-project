@@ -27,7 +27,7 @@ public class ProductDetailsPageSecondItem {
      * @throws InterruptedException If the thread is interrupted
      */
     public void clickAddToCartBtn() throws InterruptedException {
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         driver.findElement(addToCartBtn).click();
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOfElementLocated(secondProductAdded));

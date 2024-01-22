@@ -47,7 +47,7 @@ public class HomePage {
      */
     public BakeryPage hoverInteraction() throws InterruptedException {
         Actions action = new Actions(driver);
-
+        Thread.sleep(2000);
         // Hover over the Supermarket link
         action.moveToElement(driver.findElement(SuperMarketLinkTxt)).build().perform();
 

@@ -39,10 +39,11 @@ public class passwordPage {
      *
      * @param password The password to set
      */
-    public void setPasswordFieldAndPressLogin(String password) {
+    public void setPasswordFieldAndPressLogin(String password) throws InterruptedException {
         driver.findElement(passwordField).sendKeys(password);
         driver.findElement(loginBtn).click();
         driver.findElement(skipForNowLinkTxt).click();
+        Thread.sleep(2000);
     }
 
 

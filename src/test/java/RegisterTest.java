@@ -47,6 +47,7 @@ public class RegisterTest extends TestBase {
         genderObject = new genderPage(driver);
         genderObject.setGenderAndBirth();
     }
+////////////////////////////////////////Second Task///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     @Test(priority = 2)
     @Description("Login and choose item from Bakery TASK 2")
